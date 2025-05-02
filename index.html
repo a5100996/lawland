@@ -7,9 +7,10 @@
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+  <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js" integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <div class="container">
@@ -70,27 +71,39 @@
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
                         <h3>毒品案不起訴</h3>
-                        <img src="http://dummyimage.com/200x350/A00000/ffffff" alt="Case 1">
+                        <a href="http://dummyimage.com/400x700/A00000/ffffff" data-lightbox="case-1" data-title="毒品案不起訴">
+                          <img src="http://dummyimage.com/200x350/A00000/ffffff" alt="Case 1">
+                        </a>
                       </div>
                       <div class="swiper-slide">
                         <h3>人頭帳號不起訴</h3>
-                        <img src="http://dummyimage.com/200x350/A00000/ffffff" alt="Case 2">
+                        <a href="http://dummyimage.com/400x700/A00000/ffffff" data-lightbox="case-2" data-title="人頭帳號不起訴">
+                          <img src="http://dummyimage.com/200x350/A00000/ffffff" alt="Case 2">
+                        </a>
                       </div>
                       <div class="swiper-slide">
                         <h3>遭辦販賣毒品，經協助後獲判無罪</h3>
-                        <img src="http://dummyimage.com/200x350/A00000/ffffff" alt="Case 3">
+                        <a href="http://dummyimage.com/400x700/A00000/ffffff" data-lightbox="case-3" data-title="遭辦販賣毒品，經協助後獲判無罪">
+                          <img src="http://dummyimage.com/200x350/A00000/ffffff" alt="Case 3">
+                        </a>
                       </div>
                       <div class="swiper-slide">
                         <h3>遭辦販賣毒品，經協助後獲判轉讓刑度從 7 年減為 10 個月</h3>
-                        <img src="http://dummyimage.com/200x350/A00000/ffffff" alt="Case 4">
+                        <a href="http://dummyimage.com/400x700/A00000/ffffff" data-lightbox="case-4" data-title="遭辦販賣毒品，刑度從7年減為10個月">
+                          <img src="http://dummyimage.com/200x350/A00000/ffffff" alt="Case 4">
+                        </a>
                       </div>
                       <div class="swiper-slide">
                         <h3>放火燒屋遭起訴 判無罪</h3>
-                        <img src="http://dummyimage.com/200x350/A00000/ffffff" alt="Case 5">
+                        <a href="http://dummyimage.com/400x700/A00000/ffffff" data-lightbox="case-5" data-title="放火燒屋遭起訴 判無罪">
+                          <img src="http://dummyimage.com/200x350/A00000/ffffff" alt="Case 5">
+                        </a>
                       </div>
                       <div class="swiper-slide">
                         <h3>成功說服法官，妨害秩序獲判無罪，毀損罪不受理</h3>
-                        <img src="http://dummyimage.com/200x350/A00000/ffffff" alt="Case 6">
+                        <a href="http://dummyimage.com/400x700/A00000/ffffff" data-lightbox="case-6" data-title="成功說服法官，妨害秩序無罪，毀損罪不受理">
+                          <img src="http://dummyimage.com/200x350/A00000/ffffff" alt="Case 6">
+                        </a>
                       </div>
                     </div>
                     <div class="swiper-button-next"></div>
@@ -171,31 +184,49 @@
                 </div>
               </section>
               <section class="section case-stories" id="case-stories">
-                  <h2 class="section-title">真實案例分享</h2>
-                  <div class="case-list">
-                    <div class="case-item">
-                      <h3>｜家事案件分割遺產、代筆遺囑、協助公證遺囑、從而為客戶爭取最佳利益</h3>
-                    </div>
-                    <div class="case-item">
-                      <h3>｜車禍交通事故多次訴訟前達成和解取得賠償金</h3>
-                    </div>
-                    <div class="case-item">
-                      <h3>｜亞運金牌國手求償案件。</h3>
-                    </div>
-                    <div class="case-item">
-                        <h3>｜詐欺、侵占案件為被告取得不起訴處分</h3>
-                      </div>
-                      <div class="case-item">
-                        <h3>｜刑事案件為當事人獲得緩刑。</h3>
-                      </div>
-                      <div class="case-item">
-                        <h3>｜國內多家公司法律顧問，為客戶審閱各式契約、提供談判經驗</h3>
-                      </div>
+                <h2 class="section-title">真實案例分享</h2>
+                <div class="case-list">
+                  <div class="case-item">
+                    <h3>蘆洲陳先生-交付帳戶-成為人頭詐欺洗錢被告-獲不起訴處分</h3>
+                    <p>
+                      因為貸款被專員(line化名張智傑)要求美化財務證明，被騙將帳戶寄出，然後又依照指示去領錢製造現金流美化財力，後來帳戶遭凍結成警示帳戶才發現遭騙，幸虧律師研究對話協助，開庭前模擬對話，獲判不起訴，真心感謝。
+                    </p>
                   </div>
+                  <div class="case-item">
+                    <h3>永和林小姐-購買虛擬貨幣遭騙-成功拿回被騙款項</h3>
+                    <p>
+                      上網聽信投資方案，可固定領取分紅，並可購買虛擬貨幣，被騙將款項匯入人頭帳戶，經律師於刑事偵查庭主張對方幫助詐欺，並於民事審理與和解程序主張侵權行為與不當得利，幫忙將款項拿回，真心感謝。
+                    </p>
+                  </div>
+                  <div class="case-item">
+                    <h3>台北王先生-轉讓毒品被訴販賣，成功將7年刑期降為10個月</h3>
+                    <p>
+                      身為癮君子，因為同好拜託我幫忙將手上大麻轉給其他人，竟被認為是販賣毒品，一審判決要關7年，欲哭無淚，還好律師細心協助於二審翻盤，改判十個月，非常謝謝。
+                    </p>
+                  </div>
+                  <div class="case-item">
+                      <h3>桃園高小姐-遭檢察官聲請羈押-律師成功聲請具保</h3>
+                      <p>
+                          因涉入車手、水房相關組織犯罪案件遭檢察官拘提逮捕到案，親友緊急聯絡律師到場，先律見對案情分析推演，提供解套方式，遭檢察官羈押後，成功向法官爭取具保成功，家人真心推薦與感謝。
+                      </p>
+                    </div>
+                    <div class="case-item">
+                      <h3>五股林先生-被偵查販賣毒品，成功辯護不起訴</h3>
+                      <p>
+                        因為被朋友亂指認有販賣毒品，當事人晚上遭搜索逮捕，當事人尋求律師協助，在律師教學下獲得不起訴處分。
+                      </p>
+                    </div>
+                    <div class="case-item">
+                      <h3>台中詹先生-被起訴販賣毒品，成功爭取無罪</h3>
+                      <p>
+                          因為朋友要買毒並販毒，當事人好心介紹來源，竟然被起訴共同販賣，刑期高達七年，還好在律師事務所交互詰問，訴訟策略安排下，成功無罪，不用被關。
+                      </p>
+                    </div>
+                </div>
               </section>
               <footer id="contact">
-                <p>服務信箱: lhc62426@gmail.com</p>
-                <p>電話: 0936910914 </p>
+                <p>服務信箱: <a href="mailto:Timothy013tw@hequnlaw.com">Timothy013tw@hequnlaw.com</a></p>
+                <p>電話: <a href="tel:+886-936910914">0936910914 </a></p>
                 <p>服務時間：24H全年無休 </p>
                 <p>臺北所：台北市中正區忠孝東路一段152號10樓</p>
                 <p>高雄所：高雄市前鎮區中山二路78號</p>
@@ -203,6 +234,9 @@
               </footer>
         </main>
     </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
     <script src ="JS/index.js"></script>
 </body>
 </html>
